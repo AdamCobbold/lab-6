@@ -260,7 +260,7 @@ def execute_take(item_id):
         current_room["items"].remove(stuff[item_id])
         inventory.append(stuff[item_id])
     elif A == 1 and calc_mass() + C["mass"] > 3.0:
-        print("Tha's too much to carry")
+        print("That's too much to carry")
     else:
         print("You cannot take that")
     
